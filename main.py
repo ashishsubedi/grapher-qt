@@ -12,6 +12,7 @@ import re
 replacements = {
     'sin' : 'np.sin',
     'cos' : 'np.cos',
+    'tan' : 'np.tan',
     'exp': 'np.exp',
     'sqrt': 'np.sqrt',
     '^': '**',
@@ -23,6 +24,8 @@ allowed_words = [
     'cos',
     'sqrt',
     'exp',
+    'z',
+    'tan'
 ]
 
 def string2func(string):
